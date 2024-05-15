@@ -1,0 +1,152 @@
+.story-page {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/Users/mac/storyparkreact/public/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.sketchpad-image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* 确保图像显示在其他内容之上 */
+}
+
+.buttonchoose {
+  position: absolute;
+  top: 18px; /* 距离顶部的距离 */
+  left: 180px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 120px; /* 调整按钮宽度 */
+  height: 50px;
+}
+
+.buttonrestart {
+  position: absolute;
+  top: 10px; /* 距离顶部的距离 */
+  left: 300px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 70px; /* 调整按钮宽度 */
+  height: 70px;
+}
+
+.buttoncreate {
+  position: absolute;
+  top: 18px; /* 距离顶部的距离 */
+  left: 880px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 120px; /* 调整按钮宽度 */
+  height: 50px;
+}
+
+.buttonnote {
+  position: absolute;
+  top: 18px; /* 距离顶部的距离 */
+  left: 1000px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 120px; /* 调整按钮宽度 */
+  height: 50px;
+}
+
+button img {
+max-width: 100%; /* 使图片最大宽度适应按钮宽度 */
+max-height: 100%; /* 使图片最大高度适应按钮高度 */
+}
+
+.main-content {
+  width: 100vw; /* 视口的宽度 */
+  height: 100vh; /* 视口的高度 */
+  /* background-image: url(/Users/mac/storyparkreact/public/background1.png); 设置背景图 */
+  background-size: cover; /* 背景图覆盖整个容器 */
+  background-position: center; /* 背景图居中显示 */
+}
+
+
+.interaction-button1 {
+  position: absolute;
+  margin-top: 100px;
+  background-color: transparent;
+  top: 10px; /* 距离顶部的距离 */
+  left: 1010px; /* 距离左侧的距离 */
+  width: 130px; /* 调整按钮宽度 */
+  height: 130px;
+  border: none;
+}
+
+.interaction-button2 {
+  position: absolute;
+  margin-top: 250px;
+  background-color: transparent;
+  top: 10px; /* 距离顶部的距离 */
+  left: 1010px; /* 距离左侧的距离 */
+  width: 130px; /* 调整按钮宽度 */
+  height: 120px;
+  border: none;
+}
+
+button img {
+  max-width: 100%; /* 使图片最大宽度适应按钮宽度 */
+  max-height: 100%; /* 使图片最大高度适应按钮高度 */
+  }
+
+.save-stage1 {
+  position: absolute;
+  background-color: transparent;
+  top: 450px; /* 距离顶部的距离 */
+  left: 1010px; /* 距离左侧的距离 */
+  width: 130px; /* 容器的宽度应该是已知的 */
+  height: 130px;
+}
+
+.save-stage2 {
+  position: absolute;
+  background-color: transparent;
+  top: 160px; /* 距离顶部的距离 */
+  left: 0px; /* 距离左侧的距离 */
+  width: 130px; /* 容器的宽度应该是已知的 */
+  height: 130px;
+}
+  
+.save-stage1 img{
+  width: 100%;
+  height: 100%;
+}
+
+/* .save-stage-content img {
+    position: absolute;
+    width: 100%; /* 让图片充满整个容器 */
+    /* height: 100%; /* 保持图片比例 */
+  /* }   */ 
+
+  .illustration-image {
+    max-width: 100%; /* 确保图像不会超过其容器宽度 */
+    height: auto; /* 保持图像的纵横比 */
+  }
+  
+  /* .main-content {
+    flex-grow: 1;
+    width: 100vw; /* 视口的宽度 */
+    /* height: 100vh; /* 视口的高度 */
+    /* background-image: url(/Users/mac/storyparkreact/public/background1.png); /* 设置背景图 */
+    /* background-size: cover; /* 背景图覆盖整个容器 */
+    /* background-position: center; /* 背景图居中显示 */
+    /* background-repeat: no-repeat; /* 不重复背景图 */
+  /*} */
+  
+  
+  .illustration-placeholder {
+    width: 100%; /* 调整为所需的宽度百分比 */
+    height: 100%; /* 调整为所需的高度百分比 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

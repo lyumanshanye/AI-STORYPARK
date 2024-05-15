@@ -1,0 +1,55 @@
+/* ChoosePage.css */
+
+.choose-page {
+    width: 100vw;
+    height: 100vh;
+    /* background: url('/Users/mac/storyparkreact/public/chooseground.png') no-repeat center center; */
+    background-size: cover;
+  }
+  
+/* 设置所有按钮样式 */
+.buttonstory1 {
+  position: absolute;
+  top: 390px; /* 距离顶部的距离 */
+  left: 30px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 220px; /* 调整按钮宽度 */
+  height: 220px;
+}
+
+button img {
+max-width: 100%; /* 使图片最大宽度适应按钮宽度 */
+max-height: 100%; /* 使图片最大高度适应按钮高度 */
+}
+
+.buttonstory2 {
+  position: absolute;
+  top: 160px; /* 距离顶部的距离 */
+  left: 870px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 220px; /* 调整按钮宽度 */
+  height: 220px;
+}
+
+button img {
+max-width: 100%; /* 使图片最大宽度适应按钮宽度 */
+max-height: 100%; /* 使图片最大高度适应按钮高度 */
+}
+
+.buttonstory3 {
+  position: absolute;
+  top: 480px; /* 距离顶部的距离 */
+  left: 900px; /* 距离左侧的距离 */
+  border: none;
+  background-color: transparent;
+  width: 220px; /* 调整按钮宽度 */
+  height: 220px;
+}
+
+button img {
+max-width: 100%; /* 使图片最大宽度适应按钮宽度 */
+max-height: 100%; /* 使图片最大高度适应按钮高度 */
+}
+
